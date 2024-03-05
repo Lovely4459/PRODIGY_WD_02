@@ -1,0 +1,82 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+ 
+body{
+    background-color: rgba(204, 129, 141, 0.648);
+    font-family: "Protest Strike", sans-serif;
+}
+.container{
+    background-color: azure;
+    width:40%;
+    min-width: 70vw;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    padding: 2vw 0;
+    padding-bottom: 5vw;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.timer-display{
+    position:relative;
+    width:92%;
+    background:azure;
+    left: 4%;
+    font-family: "roboto", sans-serif;
+    font-size: 5vw;    
+    padding:7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    
+}
+
+.buttons{
+    width:91%;
+    margin: 5vw auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    width:13vw;
+    height:5vw;
+    color:black;
+    border:none;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 3vw;
+    border-radius: 10px;
+    cursor:pointer;
+    outline:none;
+}
+.buttons button:nth-last-child(3){
+    background-color: rgb(218, 196, 196);
+}
+
+.buttons button:nth-last-child(2){
+    background-color: rgb();
+    background-color: rgb(218,196,196);
+}
+
+.buttons button:nth-last-child(1){
+    background-color: rgb(218, 196, 196);
+}
+
+.buttons button:hover{
+    box-shadow: 0 0 3vw;
+}
